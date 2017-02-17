@@ -86,7 +86,7 @@ testing, or even test automation.
 
 The modern approach is simple -- put it in production and measure *Impact*!
 
-Which likely sounds shocking on a first read, until you adopt four practices.
+Which likely sounds shocking on a first read, until you adopt five practices.
 
 ### Limit Scope
 Place items into production for measurement in the smallest amount possible, single features, or even
@@ -112,3 +112,9 @@ deployment is mandatory. There are many ways to automate, but the standard for t
 * One way to deploy, ideally `git push`
 * One way to undeploy, ideally `git revert; git push`
 * Continuous backup of your data and code, ideally point in time restore
+
+### Pull Request with a Peer+
+Have a peer, or better programmer check your work, using the pull request mechanism. This inverts the 
+usual QA relationship where the lowest status and lowest skill technology staff is checking to having
+the highest skill staff checking. Why? You'll not only get a more informed inspection, you'll have
+an opportunity to learn more programming.
